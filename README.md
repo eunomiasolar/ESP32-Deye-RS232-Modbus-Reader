@@ -15,15 +15,15 @@ I spend a whole week experimenting with an ESP32 and thr program below to search
 
 # Searching for registers
 You can find my experiment in :
-https://github.com/eunomiasolar/DeyeRS232ModbusReader/tree/main/src/DeyeRS232ModbusReader/RS232RegisterSearcher
+https://github.com/eunomiasolar/DeyeRS232ModbusReader/DeyeRS232ModbusReader/RS232RegisterSearcher
 
 # Basic Deye RS232 Modbus reader
 Then I wrote a sketch to diaplay the registers I found on the serial console in an infinate loop:
-https://github.com/eunomiasolar/DeyeRS232ModbusReader/tree/main/src/DeyeRS232ModbusReader/BasicRS232DeyeReader
+https://github.com/eunomiasolar/DeyeRS232ModbusReader/DeyeRS232ModbusReader/BasicRS232DeyeReader
 
 # Full blown usable code
 And finaly a fully usable App that display these registers via WiFi on a browser and generate a “LogYY-MM-DD_hh_mm.csv” file with entries every 10 seconds and transfer this 0.5 GB file via FTP to a PC ftp server that run somewhere on the WiFi network.
-https://github.com/eunomiasolar/DeyeRS232ModbusReader/tree/main/src/DeyeRS232ModbusReader/ModbusMonitor
+https://github.com/eunomiasolar/DeyeRS232ModbusReader/DeyeRS232ModbusReader/ModbusMonitor
 
 <a href="https://github.com/eunomiasolar/DeyeRS232ModbusReader/blob/main/"><img src="ModbusMonitor/Screenshot_Tester.jpg" height="400"/></a>
 
